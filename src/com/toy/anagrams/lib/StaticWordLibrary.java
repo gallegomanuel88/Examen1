@@ -179,5 +179,10 @@ final class StaticWordLibrary extends WordLibrary {
     }
     int numero1 = 3;
     int numero2 = 4;
+    
+    public int devolverSuma (){
+        int resultado = numero1 + numero2;
+        return resultado;
+    }
 
 }
